@@ -1,0 +1,14 @@
+{application, lab03_client,
+ [
+  {description, "An Erlang lab03_client library"},
+  {vsn, "1"},
+  {modules, [
+             lab03_client
+            ]},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {env, []}
+ ]}.
